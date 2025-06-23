@@ -125,9 +125,9 @@ else if(value === "project -a"){
   }
   else if(value === "social -a"){
     commandResponse(true, value);
-    createText("<a href='https://discord.gg/6cvKDdmwPj' target='_blank'><i class='fab fa-discord'></i> Discord: <span class='green'>Simontech</span></a>");
+    createText("<a href='https://discord.gg/6cvKDdmwPj' target='_blank'><i class='fab fa-discord'></i> Discord: <span class='green'>Il cavo' di Simontech</span></a>");
     createText("<a href='https://github.com/SimontechYT' target='_blank'><i class='fab fa-github'></i> GitHub: <span class='green'>SimontechYT</span></a>");
-    createText("<a href='https://www.linktr.ee/simontech_yt' target='_blank'></i> Social: <span class='green'>Linktree:</span></a>");
+    createText("<a href='https://www.linktr.ee/simontech_yt' target='_blank'></i> Linktree: <span class='green'>Simontech_YT</span></a>");
   }
   else if(value === "social"){
     commandResponse(false, value);
